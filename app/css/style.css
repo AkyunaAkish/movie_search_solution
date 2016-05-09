@@ -1,0 +1,25 @@
+body {
+  color: #759eb3; }
+
+.mainNav {
+  border: 1px solid #759eb3;
+  height: 30vh;
+  text-align: center; }
+
+.mainNavContent .searchForm label, .mainNavContent .searchForm input {
+  display: block; }
+
+.mainNavContent .searchForm input {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.movieCol {
+  border: 1px solid #759eb3;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .movieCol .movieTitle {
+    font-size: 2em; }
+  .movieCol .movieYear {
+    font-size: 1.2em; }

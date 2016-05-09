@@ -1,0 +1,12 @@
+<div class="container moviesDiv">
+  <div class="row row-centered">
+    <div class="col-lg-6 movieCol" ng-repeat="movie in movies">
+      <div class="item">
+        <div class="content">
+          <p class="movieTitle"><a ng-href="/#/show/{{movie.imdbID}}">{{movie.Title}}</a></p>
+          <p class="movieYear">Year: {{movie.Year}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

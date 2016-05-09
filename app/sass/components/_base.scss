@@ -1,0 +1,35 @@
+body {
+  color: rgb(117,158,179);
+}
+
+.mainNav {
+  border: 1px solid rgb(117,158,179);
+  height: 30vh;
+  text-align: center;
+}
+
+.mainNavContent {
+  .searchForm {
+    label, input {
+      display: block;
+    }
+    input {
+      width: 200px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.movieCol {
+  border: 1px solid rgb(117,158,179);
+  text-align: center;
+  .movieTitle {
+    font-size: 2em;
+  }
+  .movieYear {
+    font-size: 1.2em;
+  }
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
